@@ -1,7 +1,7 @@
-   # Orbit Calc
+# Orbit Calc
 
-   A small Python tool that computes the period of a circular orbit around Earth.
+A small Python tool that computes the period and velocity of a circular orbit around Earth.
 
-   ## Usage
+## Usage
 
-   python orbit_calc.py
+python orbit_calc.py
