@@ -18,7 +18,7 @@ def orbital_velocity(altitude_km):
 if __name__ == "__main__":
     altitude = float(input("Altitude above Earth (km): "))
     period = orbital_period(altitude)
-    print(f"Orbital period: {period / 3600:.2f} hours")
+    print(f"Orbital period: {period / 60:.1f} minutes ({period / 3600:.2f} hours)")
     velocity = orbital_velocity(altitude)
     print(f"Orbital velocity: {velocity:.2f} km/s")
     print(f"Orbital velocity: {velocity * KM_TO_MI:.2f} mi/s")
