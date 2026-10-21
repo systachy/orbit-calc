@@ -1,6 +1,6 @@
 import math
 
-MU_EARTH = 400000       # km^3/s^2
+MU_EARTH = 398600.4418  # km^3/s^2
 R_EARTH = 6378.137      # km
 KM_TO_MI = 0.621371
 
